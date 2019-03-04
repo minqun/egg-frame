@@ -1,0 +1,22 @@
+{
+    "root": true,
+    "env": {
+        "node": true
+    },
+    "rules": {
+        "no-console": "off",
+        "no-debugger": "off",
+        "semi": [2, "always"],
+        "generator-star-spacing": "off",
+        "no-multi-spaces": 0,
+        "comma-dangle": [0, "ignore"],
+        "dot-location": 0,
+        "space-before-function-paren": [0, "always"],
+        "newline-after-var": 0,
+        "object-shorthand": 0,
+        "indent": [0, 4]
+    },
+    "parserOptions": {
+        "parser": "babel-eslint"
+    }
+}
