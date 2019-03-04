@@ -17,6 +17,11 @@ module.exports = app => {
     config.keys = app.name + '_123456';
     //配置模板路径
     config.view = {
+        mapping: {
+            '.njk': 'nunjucks',
+        },
+        defaultViewEngine: 'nunjucks',
+        defaultExtension: '.njk',
         root: [
           path.join(app.baseDir, 'app/view'),
         ].join(',')
